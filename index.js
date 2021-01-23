@@ -257,6 +257,7 @@ function gotMessage (msg) {
   if (msg.channel.id == channelID1 && msg.content == '!quiz' && !questionPosee1) {
 
     indice = '1';
+    score1 = 0;
     // On récupère les mots à chaque fois qu'on lance le quiz "actualisation"
     getGoogleSheets()
 
@@ -341,6 +342,7 @@ function gotMessage (msg) {
   if (msg.channel.id == channelID2 && msg.content == '!quiz' && !questionPosee2) {
 
     indice = '2';
+    score2 = 0;
     // On récupère les mots à chaque fois qu'on lance le quiz "actualisation"
     getGoogleSheets()
 
@@ -423,6 +425,7 @@ function gotMessage (msg) {
   if (msg.channel.id == channelID3 && msg.content == '!quiz' && !questionPosee3) {
 
     indice = '3';
+    score3 = 0;
     // On récupère les mots à chaque fois qu'on lance le quiz "actualisation"
     getGoogleSheets()
 
